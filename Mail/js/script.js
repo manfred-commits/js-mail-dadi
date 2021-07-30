@@ -14,6 +14,7 @@ var presenza = false;
 for(var i=0; i<=listaDiEmail.length; i++){
     if(emailUtente==listaDiEmail[i]){
         alert("La tua email '" + emailUtente + "' è nella lista");
+        presenza= true;
     }
 }
 if(presenza==false){
