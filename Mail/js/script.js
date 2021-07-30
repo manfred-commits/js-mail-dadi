@@ -5,6 +5,7 @@
 
 // 1)Chiedi all’utente la sua email
 var emailUtente = prompt("Inserisci l'email che si desidera verificare: ");
+var emailUtente= emailUtente.toLowerCase();
 // 2)controlla che sia nella lista di chi può accedere
 // 2.1)questo passaggio richiede in primo luoga che ci sia un array contenente una lista di email
 var listaDiEmail= ["fabriziomadrigali@gmail.com","alessandromastrobbattista@gmail.com","fabriziolodigiani@gmail.com","gianpippogianpappo@gmail.com"];
