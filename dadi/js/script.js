@@ -4,8 +4,8 @@
 
 // 1)Generare un numero random da 1 a 16, sia per il giocatore sia per il computer.
 
-var numeroGiocatore = Math.floor(Math.random() * 6);
-var numeroComputer = Math.floor(Math.random() * 6);
+var numeroGiocatore = Math.floor(Math.random() * 6) + 1;
+var numeroComputer = Math.floor(Math.random() * 6) + 1;
 
 //2) Stabilire il vincitore, in base a chi fa il punteggio più alto.
 if(numeroGiocatore>numeroComputer){
